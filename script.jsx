@@ -13,7 +13,7 @@ let Lista = [{
                    }]
 class App extends React.Component {
     constructor(props){
-        super(props); // basklassens konstruktor
+        super(props); 
         this.state = {
            Lista: Lista,
             input1: '',
@@ -61,7 +61,7 @@ class App extends React.Component {
 }
 class AdForm extends React.Component {
      constructor(props){
-        super(props); // basklassens konstruktor
+        super(props); 
          this.input1Change = this.input1Change.bind(this);
          this.input2Change = this.input2Change.bind(this);
          this.buttonClicked = this.buttonClicked.bind(this);
@@ -111,10 +111,7 @@ class MyList extends React.Component {
         );  
     }  
     
-    updateSelectedItem(){
-        // ska vara en funktoin som ändrar selected item som ska
-        // skickas ner till MyItem-komponenten
-    }
+   
 }
 class MyItem extends React.Component {
     render() {
