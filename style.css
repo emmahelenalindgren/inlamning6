@@ -1,0 +1,49 @@
+* {
+    font-family: 'Raleway', sans-serif;
+     outline-color: transparent;
+    border: none;
+   
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+li {
+    padding: 5px;
+}
+
+span {
+    padding: 2px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+     outline-color: transparent;
+}
+
+button {
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
