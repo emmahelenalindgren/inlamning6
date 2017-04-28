@@ -13,7 +13,7 @@ let Lista = [{
                    }]
 class App extends React.Component {
     constructor(props){
-        super(props); 
+        super(props); // basklassens konstruktor
         this.state = {
            Lista: Lista,
             input1: '',
@@ -111,7 +111,8 @@ class MyList extends React.Component {
         );  
     }  
     
-   
+    updateSelectedItem(){
+    }
 }
 class MyItem extends React.Component {
     render() {
